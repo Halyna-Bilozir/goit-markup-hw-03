@@ -1,0 +1,232 @@
+/* Виділені основні кольори фону, спільні кольори для фону та тексту, кольори тексту. Використання змінних*/
+:root {
+    --primary-backgroud-color:#E5E5E5;
+    --secondary-backgroud-color: #2F303A;
+    --team-background-color: #F5F4FA;
+
+    --navmain-hero-adress-color: #FFFFFF;
+    --accent-color: #2196F3;
+
+    --primary-text-color:#757575;
+    --secondary-text-color:#212121;
+    --transparent-text-color: rgba(255, 255, 255, 0.6);
+}
+
+/*Забираємо точки в списках і підкреслення ссилок*/
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+/*Загальне для body*/
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+
+    background-color: var(--primary-backgroud-color);
+}
+
+/*Оформлення для header*/
+header {
+    background-color: var(--navmain-hero-adress-color);
+}
+
+/*Оформлення логотипу*/
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.logo .accent {
+    color: var(--accent-color);
+}
+.logo .header {
+    color: var(--secondary-text-color);
+}
+.logo .footer {
+    color: var(--navmain-hero-adress-color);
+}
+
+/*Оформлення списку навігації та списку контактів*/
+.nav-links, .contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--secondary-text-color);
+}
+.nav-links-studio,
+.nav-links-portfolio, 
+.nav-links-contacts {
+    color: var(--secondary-text-color);
+}*
+.nav-links-studio:hover, 
+.contact-mail:hover,
+.nav-links-studio:focus, 
+.contact-mail:focus {
+    color: var(--accent-color);
+}
+.contact-tel,
+.contact-mail {
+    color: var(--primary-text-color);
+}
+
+/* Оформлення унікальної інформації сторінки Студія*/
+
+/*Оформлення секції героя. Секція, в якій можна замовити послугу*/
+.hero {
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: var(--navmain-hero-adress-color);
+    background-color: var(--secondary-backgroud-color);
+}
+.hero-header {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+}
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
+    color: var(--navmain-hero-adress-color);
+    background-color: var(--accent-color);
+}
+
+/*Оформлення секції переваг*/
+.benefits {
+    font-size: 14px;
+
+    background-color: var(--primary-backgroud-color);
+}
+.benefits-header {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: var(--secondary-text-color);
+}
+.benefits-text {
+    font-weight: 400;
+    line-height: 1.71;
+
+    color: var(--primary-text-color);
+}
+
+/* Оформлення секції Сфера дільності*/
+.sphere {
+    background-color: var(--primary-backgroud-color);
+}
+.sphere-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
+    color: var(--secondary-text-color);
+}
+.sphere-image {
+    width: 370px;
+    height: 294px;
+}
+/*Оформлення секції Команда*/
+.team {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--secondary-text-color);
+    background-color: var(--team-background-color);
+}
+.team-image {
+    width: 270px;
+    height: 260px;
+}
+.team-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+.team-header-photo {
+    font-weight: 500;
+    color: var(--secondary-text-color);
+}
+.team-text {
+    color: var(--primary-text-color);
+}
+
+/* Оформлення підвалу, переплітається з хедером*/
+.footer-page {
+    font-size: 14px;
+    line-height: 1.71;
+    background-color: var(--secondary-backgroud-color);
+}
+address {
+font-style: inherit;
+}
+.footer-address {
+    color: var(--navmain-hero-adress-color);
+}
+.footer-address-contact { 
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*Оформлення другої сторінки Portfolio*/
+.main-portfolio {
+    background-color: var(--primary-backgroud-color);
+}
+.nav-links-sstudio,
+.nav-links-pportfolio {
+   color: var(--secondary-text-color);
+}
+.nav-links-pportfolio:hover, 
+.nav-links-pportfolio:focus {
+    color: var(--accent-color);
+}
+/* Оформлення фільтру*/
+button {
+    font-family: inherit;
+}
+.list-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+
+    text-align: center;
+}
+.list-button-main {
+    color: var(--navmain-hero-adress-color);
+    background-color: var(--accent-color);
+}
+.list-button-secondary, .image-header {
+    color: var(--secondary-text-color);
+}
+
+/*Оформлення списку*/
+.image-size {
+    width: 370px;
+    height: 294px;
+}
+.image-header {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--secondary-text-color);
+}
+.image-text {
+    font-size: 16px;
+    line-height: 1.88;
+
+    color: var(--primary-text-color);
+}
