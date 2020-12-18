@@ -10,6 +10,8 @@
     --primary-text-color:#757575;
     --secondary-text-color:#212121;
     --transparent-text-color: rgba(255, 255, 255, 0.6);
+
+    --header-line-color: #ECECEC;
 }
 
 /*Забираємо точки в списках і підкреслення ссилок*/
@@ -20,21 +22,6 @@ a {
     text-decoration: none;
 }
 
-/*Забираємо нижній і верхній маржен*/
-ul,
-p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-/*Оформлення класу контейнер*/
-.container {
-    width: 1200;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 /*Загальне для body*/
 body {
@@ -45,22 +32,54 @@ body {
     background-color: var(--primary-backgroud-color);
 }
 
+/*Забираємо нижній і верхній маржен*/
+ul,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/*Оформлення класу контейнер*/
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 /*Оформлення для header*/
 header {
     background-color: var(--navmain-hero-adress-color);
 }
 
+.header>.container {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--header-line-color);
+}
 /*Оформлення логотипу*/
 .logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    min-width: 145px;
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.logo-block {
+    display: block;
+}
+.logo-block:not(:first-child) {
+    margin-right: 93px;
 }
 .logo .accent {
     color: var(--accent-color);
 }
-.logo .header {
+.logo .l-header {
     color: var(--secondary-text-color);
 }
 .logo .footer {
@@ -92,6 +111,25 @@ header {
     color: var(--primary-text-color);
 }
 
+.nav-pages {
+    display: flex;
+    width: 294px;
+}
+.nav-pages>li:not(:last-child) {
+    margin-right: 50px;
+}
+.nav-links-studio {
+    display: block;
+    min-width: 49px;
+}
+.nav-links-portfolio {
+    display: block;
+    min-width: 77px;
+}
+.nav-links-contacts {
+    display: block;
+    min-width: 68px;
+}
 /* Оформлення унікальної інформації сторінки Студія*/
 
 /*Оформлення секції героя. Секція, в якій можна замовити послугу*/
