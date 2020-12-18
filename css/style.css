@@ -20,6 +20,22 @@ a {
     text-decoration: none;
 }
 
+/*Забираємо нижній і верхній маржен*/
+ul,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*Оформлення класу контейнер*/
+.container {
+    width: 1200;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*Загальне для body*/
 body {
     font-family: Roboto, sans-serif;
