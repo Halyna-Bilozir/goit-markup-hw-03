@@ -13,20 +13,22 @@
 <body>
     <!--Верхня лінія. Шапка(на макеті шапка ще перша секція, в мене лише перша лінія). Логотип. Загальна навігація. Контакти. Відображається на кожній сторінці-->
     <header>
-        <a class="logo header" href="https://halyna-bilozir.github.io/goit-markup-hw-02/index.html">
-            <span class="logo accent">Web</span><span class="logo header">Studio</span>
-        </a>
-        <nav class="nav-links">
-            <ul>
-                <li><a href="" lang="ru" class="nav-links-studio">Студия</a></li>
-                <li><a href="https://halyna-bilozir.github.io/goit-markup-hw-02/portfolio.html" lang="ru" class="nav-links-portfolio">Портфолио</a></li>
-                <li><a href="" lang="ru" class="nav-links-contacts">Контакты</a></li>
+       <div class="container">
+            <a class="logo header" href="https://halyna-bilozir.github.io/goit-markup-hw-02/index.html">
+                <span class="logo accent">Web</span><span class="logo header">Studio</span>
+            </a>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="" lang="ru" class="nav-links-studio">Студия</a></li>
+                    <li><a href="https://halyna-bilozir.github.io/goit-markup-hw-02/portfolio.html" lang="ru" class="nav-links-portfolio">Портфолио</a></li>
+                    <li><a href="" lang="ru" class="nav-links-contacts">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="contact">
+                <li><a href="emailto:info@devstudio.com" class="contact-mail">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="contact-tel">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul class="contact">
-            <li><a href="emailto:info@devstudio.com" class="contact-mail">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="contact-tel">+38 096 111 11 11</a></li>
-        </ul>
+       </div>
     </header>
 
     <!--Вся унікальна інформація на сторінці-->
@@ -39,96 +41,103 @@
 
         <!--Секція перечислення переваг без вказування головного заголовку-->
         <section class="benefits">
-            <h2 visiable hidden lang="ru">Преимущества</h2>
-            <ul>
-                <li>
-                    <h3 class="benefits-header" lang="ru">Внимание к деталям</h3>
-                    <p class="benefits-text" lang="ru">
-                        Идейные соображения, а также начало повседневной работы по формированию позиции.
-                    </p>
-                </li>
-                <li>
-                    <h3 class="benefits-header" lang="ru">Пунктуальность</h3>
-                    <p class="benefits-text" lang="ru">
-                        Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-                    </p>
-                </li>
-                <li>
-                    <h3 class="benefits-header" lang="ru">Планирование</h3>
-                    <p class="benefits-text" lang="ru">
-                        Равным образом консультация с широким активом в значительной степени обуславливает.
-                    </p>
-                </li>
-                <li>
-                    <h3 class="benefits-header" lang="ru">Современные технологии</h3>
-                    <p class="benefits-text" lang="ru">
-                        Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-                    </p>
-                </li>
-            </ul>
+           <div class="container">
+                <h2 visiable hidden lang="ru">Преимущества</h2>
+                <ul>
+                    <li>
+                        <h3 class="benefits-header" lang="ru">Внимание к деталям</h3>
+                        <p class="benefits-text" lang="ru">
+                            Идейные соображения, а также начало повседневной работы по формированию позиции.
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="benefits-header" lang="ru">Пунктуальность</h3>
+                        <p class="benefits-text" lang="ru">
+                            Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="benefits-header" lang="ru">Планирование</h3>
+                        <p class="benefits-text" lang="ru">
+                            Равным образом консультация с широким активом в значительной степени обуславливает.
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="benefits-header" lang="ru">Современные технологии</h3>
+                        <p class="benefits-text" lang="ru">
+                            Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                        </p>
+                    </li>
+                </ul>
+           </div>
         </section>
 
         <!--Сфера діяльності-->
         <section class="sphere">
-            <h2 class="sphere-header" lang="ru">Чем мы занимаемся</h2>
-            <ul>
-                <li><a href=""><img class="sphere-image" src="./images/image01.jpg" alt="Рабочая среда для програмирования"></a></li>
-                <li><a href=""><img class="sphere-image" src="./images/image02.jpg" alt="Макет смартфона на екране ноутбука"></a></li>
-                <li><a href=""><img class="sphere-image" src="./images/image03.jpg" alt="Шестигранник разних цветов на планшете"></a></li>
-            </ul>
+            <div class="container">
+                <h2 class="sphere-header" lang="ru">Чем мы занимаемся</h2>
+                <ul>
+                    <li><a href=""><img class="sphere-image" src="./images/image01.jpg" alt="Рабочая среда для програмирования"></a></li>
+                    <li><a href=""><img class="sphere-image" src="./images/image02.jpg" alt="Макет смартфона на екране ноутбука"></a></li>
+                    <li><a href=""><img class="sphere-image" src="./images/image03.jpg" alt="Шестигранник разних цветов на планшете"></a></li>
+                </ul>
+            </div>
         </section>
 
         <!--Команда. Фото професіоналів, основна інформація-->
         <section class="team">
-            <h2 class="team-header" lang="ru">Наша команда</h2>
-            <ul>
-                <li>
-                    <!--Обернула все в лінк, щоб переходило по ссилці і по фото і по підпису-->
-                    <a href="">
-                        <img class="team-image" src="./images/photo01.jpg" alt="Портрет мужчины-дизайнера в бордовой рубашке">
-                        <h3 class="team-header-photo" lang="ru">Игорь Демьяненко</h3>
-                        <p class="team-text">Product Designer</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img class="team-image" src="./images/photo02.jpg" alt="Портрет женщины разработчика в черном пиджаке">
-                        <h3 class="team-header-photo" lang="ru">Ольга Репина</h3>
-                        <p class="team-text">Frontend Developer</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img class="team-image" src="./images/photo03.jpg" alt="Портрет мужчины - маркетолога в голубой рубашке">
-                        <h3 class="team-header-photo" lang="ru">Николай Тарасов</h3>
-                        <p class="team-text">Marketing</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img class="team-image" src="./images/photo04.jpg" alt="Портрет мужчины - дизайнера в черной футболке">
-                        <h3 class="team-header-photo" lang="ru">Михаил Ермаков</h3>
-                        <p class="team-text">UI Designer</p>
-                    </a>
-                </li>
-            </ul>
+           <div class="container">
+                <h2 class="team-header" lang="ru">Наша команда</h2>
+                <ul>
+                    <li>
+                        <!--Обернула все в лінк, щоб переходило по ссилці і по фото і по підпису-->
+                        <a href="">
+                            <img class="team-image" src="./images/photo01.jpg" alt="Портрет мужчины-дизайнера в бордовой рубашке">
+                            <h3 class="team-header-photo" lang="ru">Игорь Демьяненко</h3>
+                            <p class="team-text">Product Designer</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img class="team-image" src="./images/photo02.jpg" alt="Портрет женщины разработчика в черном пиджаке">
+                            <h3 class="team-header-photo" lang="ru">Ольга Репина</h3>
+                            <p class="team-text">Frontend Developer</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img class="team-image" src="./images/photo03.jpg" alt="Портрет мужчины - маркетолога в голубой рубашке">
+                            <h3 class="team-header-photo" lang="ru">Николай Тарасов</h3>
+                            <p class="team-text">Marketing</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img class="team-image" src="./images/photo04.jpg" alt="Портрет мужчины - дизайнера в черной футболке">
+                            <h3 class="team-header-photo" lang="ru">Михаил Ермаков</h3>
+                            <p class="team-text">UI Designer</p>
+                        </a>
+                    </li>
+                </ul>
+           </div>
         </section>
 
     </main>
 
     <!--Підвал, де вказана адреса і контакти. Відображається на кожній сторінці-->
     <footer class="footer-page">
-        <a class="logo footer" href="https://halyna-bilozir.github.io/goit-markup-hw-02/index.html">
-            <span class="logo accent">Web</span><span class="logo footer">Studio</span>
-        </a>
-        <address class="footer-address" lang="ru">
-            г. Киев, пр-т Леси Украинки, 26
-        </address>
-        <address>
-            <a class="footer-address-contact" href="mailto:info@example.com">info@example.com</a>
-              </br>
-            <a class="footer-address-contact" href="tel:+380991111111">+38 099 111 11 11</a>
-        </address>
+       <div class="container">
+            <a class="logo footer" href="https://halyna-bilozir.github.io/goit-markup-hw-02/index.html">
+                <span class="logo accent">Web</span><span class="logo footer">Studio</span>
+            </a>
+            <address class="footer-address" lang="ru">
+                г. Киев, пр-т Леси Украинки, 26
+            </address>
+            <address>
+                <a class="footer-address-contact" href="mailto:info@example.com">info@example.com</a>
+                <a class="footer-address-contact" href="tel:+380991111111">+38 099 111 11 11</a>
+            </address>
+       </div>
     </footer>
 </body>
 </html>
