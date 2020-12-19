@@ -217,10 +217,23 @@ header {
     text-align: center;
 
     color: var(--secondary-text-color);
+
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.sphere-list {
+    padding-left: 0px;
+    padding-bottom: 94px;
+    display: flex;
+}
+.sphere-list>li:not(:last-child) {
+    margin-right: 30px;
 }
 .sphere-image {
     width: 370px;
     height: 294px;
+
+    display: block;
 }
 /*Оформлення секції Команда*/
 .team {
