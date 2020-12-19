@@ -176,6 +176,18 @@ header {
 
     background-color: var(--primary-backgroud-color);
 }
+.benefits-hidden {
+    margin: 0px;
+}
+.benefits-list {
+    padding-left: 0px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    display: flex;
+}
+.benefits-list>li:not(:last-child) {
+    margin-right: 30px;
+}
 .benefits-header {
     font-size: 14px;
     font-weight: 700;
@@ -183,6 +195,9 @@ header {
     text-transform: uppercase;
 
     color: var(--secondary-text-color);
+
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 .benefits-text {
     font-weight: 400;
