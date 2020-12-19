@@ -65,21 +65,15 @@ header {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    min-width: 145px;
 
     padding-top: 24px;
     padding-bottom: 24px;
-}
-.logo-block {
-    display: block;
-}
-.logo-block:not(:first-child) {
-    margin-right: 93px;
 }
 .logo .accent {
     color: var(--accent-color);
 }
 .logo .l-header {
+    margin-right: 93px;
     color: var(--secondary-text-color);
 }
 .logo .footer {
@@ -99,7 +93,7 @@ header {
 .nav-links-portfolio, 
 .nav-links-contacts {
     color: var(--secondary-text-color);
-}*
+}
 .nav-links-studio:hover, 
 .contact-mail:hover,
 .nav-links-studio:focus, 
@@ -113,22 +107,28 @@ header {
 
 .nav-pages {
     display: flex;
-    width: 294px;
+    padding-left: 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-right: 331px;
 }
 .nav-pages>li:not(:last-child) {
     margin-right: 50px;
 }
-.nav-links-studio {
+.nav-page-list {
     display: block;
-    min-width: 49px;
 }
-.nav-links-portfolio {
-    display: block;
-    min-width: 77px;
+.contact {
+    display: flex;
+    padding-left: 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
-.nav-links-contacts {
+.contact>li:not(:last-child) {
+    margin-right: 50px;
+}
+.contact-list {
     display: block;
-    min-width: 68px;
 }
 /* Оформлення унікальної інформації сторінки Студія*/
 
