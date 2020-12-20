@@ -12,6 +12,7 @@
     --transparent-text-color: rgba(255, 255, 255, 0.6);
 
     --header-line-color: #ECECEC;
+    --portfolio-border-color: #EEEEEE;
 }
 
 /*Забираємо точки в списках і підкреслення ссилок*/
@@ -381,11 +382,35 @@ button {
 }
 
 /*Оформлення списку*/
+.image-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+}
+.image-list>li:not(:nth-child(3n+3)) {
+    margin-right: 30px;
+}
+.image-item {
+    margin-bottom: 30px;
+   /* border: 1px solid var( --portfolio-border-color);*/
+}
 .image-size {
     width: 370px;
-    height: 294px;
+    margin-right: 0px;
+}
+.image-link {
+    display: block;
+    min-width: 370px;
+    background: var(--navmain-hero-adress-color);
+}
+.image-description {
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .image-header {
+    margin-top: 0px;
+    margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
