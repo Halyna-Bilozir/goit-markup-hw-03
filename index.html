@@ -95,34 +95,42 @@
         <section class="team">
            <div class="container">
                 <h2 class="team-header" lang="ru">Наша команда</h2>
-                <ul>
-                    <li>
+                <ul class="team-list">
+                    <li class="team-item">
                         <!--Обернула все в лінк, щоб переходило по ссилці і по фото і по підпису-->
                         <a href="">
                             <img class="team-image" src="./images/photo01.jpg" alt="Портрет мужчины-дизайнера в бордовой рубашке">
-                            <h3 class="team-header-photo" lang="ru">Игорь Демьяненко</h3>
-                            <p class="team-text">Product Designer</p>
+                            <div class="team-underimage">
+                                <h3 class="team-header-photo" lang="ru">Игорь Демьяненко</h3>
+                                <p class="team-text">Product Designer</p>
+                            </div>
                         </a>
                     </li>
-                    <li>
+                    <li class="team-item">
                         <a href="">
                             <img class="team-image" src="./images/photo02.jpg" alt="Портрет женщины разработчика в черном пиджаке">
-                            <h3 class="team-header-photo" lang="ru">Ольга Репина</h3>
-                            <p class="team-text">Frontend Developer</p>
+                            <div class="team-underimage">
+                                <h3 class="team-header-photo" lang="ru">Ольга Репина</h3>
+                                <p class="team-text">Frontend Developer</p>
+                            </div>
                         </a>
                     </li>
-                    <li>
+                    <li class="team-item">
                         <a href="">
                             <img class="team-image" src="./images/photo03.jpg" alt="Портрет мужчины - маркетолога в голубой рубашке">
-                            <h3 class="team-header-photo" lang="ru">Николай Тарасов</h3>
-                            <p class="team-text">Marketing</p>
+                            <div class="team-underimage">
+                                <h3 class="team-header-photo" lang="ru">Николай Тарасов</h3>
+                                <p class="team-text">Marketing</p>
+                            </div>
                         </a>
                     </li>
-                    <li>
+                    <li class="team-item">
                         <a href="">
                             <img class="team-image" src="./images/photo04.jpg" alt="Портрет мужчины - дизайнера в черной футболке">
-                            <h3 class="team-header-photo" lang="ru">Михаил Ермаков</h3>
-                            <p class="team-text">UI Designer</p>
+                            <div class="team-underimage">
+                                <h3 class="team-header-photo" lang="ru">Михаил Ермаков</h3>
+                                <p class="team-text">UI Designer</p>
+                            </div>
                         </a>
                     </li>
                 </ul>
@@ -132,18 +140,20 @@
     </main>
 
     <!--Підвал, де вказана адреса і контакти. Відображається на кожній сторінці-->
-    <footer class="footer-page">
+    <footer class="footer">
        <div class="container">
-            <a class="logo footer" href="https://halyna-bilozir.github.io/goit-markup-hw-02/index.html">
-                <span class="logo accent">Web</span><span class="logo footer">Studio</span>
-            </a>
-            <address class="footer-address" lang="ru">
-                г. Киев, пр-т Леси Украинки, 26
-            </address>
-            <address>
-                <a class="footer-address-contact" href="mailto:info@example.com">info@example.com</a>
-                <a class="footer-address-contact" href="tel:+380991111111">+38 099 111 11 11</a>
-            </address>
+            <div class="footer-address-block">
+                <a class="logo common-footer" href="https://halyna-bilozir.github.io/goit-markup-hw-02/index.html">
+                    <span class="logo accent">Web</span><span class="logo common-footer">Studio</span>
+                </a>
+                <address class="footer-address" lang="ru">
+                    г. Киев, пр-т Леси Украинки, 26
+                </address>
+                <address>
+                    <a class="footer-address-contact" href="mailto:info@example.com">info@example.com</a>
+                    <a class="footer-address-contact" href="tel:+380991111111">+38 099 111 11 11</a>
+                </address>
+            </div>
        </div>
     </footer>
 </body>
