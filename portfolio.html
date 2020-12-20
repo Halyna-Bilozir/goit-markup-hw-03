@@ -38,95 +38,99 @@
     </header>
 
     <!--Вся унікальна інформація на сторінці-->
-    <main class="main-portfolio">
+    <main>
         <section>
-            <h2 hidden>Portfolio: navigation and filters</h2>
-            <!--Навігація по сторінці Портфоліо. Містить майбутній фільтр - поки що кнопки-->
-            <ul class="list-button">
-                <li>
-                    <button class="list-button-main" type="button" lang="ru">Все</button>
-                </li>
-                <li>
-                    <button class="list-button-secondary" type="button" lang="ru">Веб-сайты</button>
-                </li>
-                <li>
-                    <button class="list-button-secondary" type="button" lang="ru">Приложения</button>
-                </li>
-                <li>
-                    <button class="list-button-secondary" type="button" lang="ru">Дизайн</button>
-                </li>
-                <li>
-                    <button class="list-button-secondary" type="button" lang="ru">Маркетинг</button>
-                </li>
-            </ul>
-                   
+          <div class="container">
+                <h2 class="portfolio-header" visiable hidden>Portfolio: navigation and filters</h2>
+                    <!--Навігація по сторінці Портфоліо. Містить майбутній фільтр - поки що кнопки-->
+                <div class="portfolio-filter">
+                    <ul class="list-button">
+                        <li class="list-button-items">
+                            <button class="list-button-main" type="button" lang="ru">Все</button>
+                        </li>
+                        <li class="list-button-items">
+                            <button class="list-button-secondary" type="button" lang="ru">Веб-сайты</button>
+                        </li>
+                        <li class="list-button-items">
+                            <button class="list-button-secondary" type="button" lang="ru">Приложения</button>
+                        </li>
+                        <li class="list-button-items">
+                            <button class="list-button-secondary" type="button" lang="ru">Дизайн</button>
+                        </li>
+                        <li class="list-button-items">
+                            <button class="list-button-secondary" type="button" lang="ru">Маркетинг</button>
+                        </li>
+                    </ul>
+                </div>
+                    
 
-            <!--Список веб-сайтів, додатків, дизайну та маркетингу-->
-            <ul>
-                <li>
-                    <a href="">
-                        <img class="image-size" src="./images/portfolio01.jpg" alt="Фото і опис трьох персон на екрані ноутбука">
-                        <h3 class="image-header" lang="ru">Технокряк</h3>
-                        <p class="image-text" lang="ru">Веб-сайт</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img class="image-size" src="./images/portfolio02.jpg" alt="Два баскетболіста в процесі гри">
-                        <h3 class="image-header"><span lang="ru">Постер</span>New Orlean vs Golden Star</h3>
-                        <p class="image-text" lang="ru">Дизайн</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img class="image-size" src="./images/portfolio03.jpg" alt="Назва та емблема ресторану">
-                        <h3 class="image-header"><span lang="ru">Ресторан</span>Seafood</h3>
-                        <p class="image-text" lang="ru">Приложение</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img class="image-size" src="./images/portfolio04.jpg" alt="Грубі чорні наушники">
-                        <h3 class="image-header"><span lang="ru">Проект</span>Prime</h3>
-                        <p class="image-text" lang="ru">Маркетинг</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img class="image-size" src="./images/portfolio05.jpg" alt="Дві коробки: більша білого кольору, а менша - рожевого">
-                        <h3 class="image-header"><span lang="ru">Проект</span>Boxes</h3>
-                        <p class="image-text" lang="ru">Приложение</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img class="image-size" src="./images/portfolio06.jpg" alt="Монітор чорного кольору з контентом">
-                        <h3 class="image-header">Inspiration has no Borders</h3>
-                        <p class="image-text" lang="ru">Веб-сайт</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img class="image-size" src="./images/portfolio07.jpg" alt="Дві розгорнуті сторінки журналу">
-                        <h3 class="image-header"><span lang="ru">Издание</span>Limited Edition</h3>
-                        <p class="image-text" lang="ru">Дизайн</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img class="image-size" src="./images/portfolio08.jpg" alt="Зображення брендової етикетки">
-                        <h3 class="image-header"><span lang="ru">Проект</span></h3>
-                        <p class="image-text" lang="ru">Маркетинг</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img class="image-size" src="./images/portfolio09.jpg" alt="Дві руки на клавіатурі ноутбука">
-                        <h3 class="image-header">Growing Business</h3>
-                        <p class="image-text" lang="ru">Приложение</p>
-                    </a>
-                </li>
-            </ul>
+                <!--Список веб-сайтів, додатків, дизайну та маркетингу-->
+                <ul>
+                    <li>
+                        <a href="">
+                            <img class="image-size" src="./images/portfolio01.jpg" alt="Фото і опис трьох персон на екрані ноутбука">
+                            <h3 class="image-header" lang="ru">Технокряк</h3>
+                            <p class="image-text" lang="ru">Веб-сайт</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img class="image-size" src="./images/portfolio02.jpg" alt="Два баскетболіста в процесі гри">
+                            <h3 class="image-header"><span lang="ru">Постер</span>New Orlean vs Golden Star</h3>
+                            <p class="image-text" lang="ru">Дизайн</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img class="image-size" src="./images/portfolio03.jpg" alt="Назва та емблема ресторану">
+                            <h3 class="image-header"><span lang="ru">Ресторан</span>Seafood</h3>
+                            <p class="image-text" lang="ru">Приложение</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img class="image-size" src="./images/portfolio04.jpg" alt="Грубі чорні наушники">
+                            <h3 class="image-header"><span lang="ru">Проект</span>Prime</h3>
+                            <p class="image-text" lang="ru">Маркетинг</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img class="image-size" src="./images/portfolio05.jpg" alt="Дві коробки: більша білого кольору, а менша - рожевого">
+                            <h3 class="image-header"><span lang="ru">Проект</span>Boxes</h3>
+                            <p class="image-text" lang="ru">Приложение</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img class="image-size" src="./images/portfolio06.jpg" alt="Монітор чорного кольору з контентом">
+                            <h3 class="image-header">Inspiration has no Borders</h3>
+                            <p class="image-text" lang="ru">Веб-сайт</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img class="image-size" src="./images/portfolio07.jpg" alt="Дві розгорнуті сторінки журналу">
+                            <h3 class="image-header"><span lang="ru">Издание</span>Limited Edition</h3>
+                            <p class="image-text" lang="ru">Дизайн</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img class="image-size" src="./images/portfolio08.jpg" alt="Зображення брендової етикетки">
+                            <h3 class="image-header"><span lang="ru">Проект</span></h3>
+                            <p class="image-text" lang="ru">Маркетинг</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img class="image-size" src="./images/portfolio09.jpg" alt="Дві руки на клавіатурі ноутбука">
+                            <h3 class="image-header">Growing Business</h3>
+                            <p class="image-text" lang="ru">Приложение</p>
+                        </a>
+                    </li>
+                </ul>
+          </div>
         </section>
     </main>
 

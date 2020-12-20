@@ -268,6 +268,9 @@ header {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     background-color: var(--navmain-hero-adress-color);
 }
+.team-item-link {
+    display: block;
+}
 .team-image {
     width: 270px;
     margin-bottom: 0px;
@@ -327,6 +330,13 @@ font-style: inherit;
     color: var(--accent-color);
 }
 /* Оформлення фільтру*/
+.portfolio-header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.portfolio-filter {
+    padding-left: 0px;
+}
 button {
     font-family: inherit;
 }
@@ -336,12 +346,37 @@ button {
     line-height: 1.63;
 
     text-align: center;
+    display: flex;
+    padding-left: 0px;
+    padding-top: 94px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+.list-button>li:not(:last-child) {
+    margin-right: 8px;
 }
 .list-button-main {
     color: var(--navmain-hero-adress-color);
     background-color: var(--accent-color);
 }
-.list-button-secondary, .image-header {
+.list-button-main,
+.list-button-secondary {
+    display: block;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 22px;
+    padding-left: 22px;
+
+    border: 2px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.list-button-secondary {
+    background: var(--team-background-color);
+}
+
+.list-button-secondary, 
+.image-header {
     color: var(--secondary-text-color);
 }
 
